@@ -1,4 +1,4 @@
-package com.appium.tutorial1;
+package android.appium.tutorial;
 
 import java.net.MalformedURLException;
 
