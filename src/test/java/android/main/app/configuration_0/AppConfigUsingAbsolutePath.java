@@ -1,4 +1,4 @@
-package MainAppConfiguration;
+package android.main.app.configuration_0;
 
 import java.io.File;
 import java.net.MalformedURLException;

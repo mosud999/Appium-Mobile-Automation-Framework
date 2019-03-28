@@ -1,4 +1,4 @@
-package android.appium.tutorial;
+package android.appium.all.tutorials_1;
 	
 	import java.net.MalformedURLException;
 	import java.util.concurrent.TimeUnit;

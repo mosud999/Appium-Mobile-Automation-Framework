@@ -1,4 +1,4 @@
-package android.appium.tutorial;
+package android.real.device.testing_3;
 
 import java.net.MalformedURLException;
 
@@ -7,11 +7,11 @@ import org.openqa.selenium.By;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
-public class BasicEndToEnd extends BaseConfig {
+public class BasicEndToEnd extends BaseConfigAndroidRealDevice {
 
 	public static void main(String[] args) throws MalformedURLException {
 		
-		AndroidDriver<AndroidElement > driver=capabilities(); // calling the baseconfig driver;
+		AndroidDriver<AndroidElement > driver=capabilities("real"); // calling the baseconfig driver;
 		//End to End scenario of an app;
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Preference']")).click();
 		driver.findElement(By.xpath("(//android.widget.TextView)[4]")).click();
