@@ -18,8 +18,8 @@ import io.appium.java_client.remote.MobilePlatform;
  * ----------------How to test hybrid app?---------------------------------------------------
  * 
  * We have to follow two main steps for testing Hybrid Apps:-
- *    1. Ask developer to enable WebView debugging, call the static method setWebContentsDebuggingEnabled 
- * on the WebView class. Otherwise, you may see the switching is not working;
+ *    1. Ask developer to enable WebView debugging for switching of Hybrid App, Tell your developer to enable the static method 
+ *    setWebContentsDebugging() ->Enabled in the WebView class. Otherwise, you may find switching is not working;
  * 
  *    2. You need to switch to native app for working on native app object and also switch to web view app for working on
  * web view of the app. You can first use getContext() to see which context view you are working in and then you can use 
