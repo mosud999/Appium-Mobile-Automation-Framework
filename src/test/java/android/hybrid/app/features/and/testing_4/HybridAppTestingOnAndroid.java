@@ -26,8 +26,11 @@ import io.appium.java_client.remote.MobilePlatform;
  * getContextHandles() to get all the context views of this current app. Next we will run for-each loop to get all
  * the context views names or you can ask your developer to give you the names. After iterating you will get names
  * like this: 
-	 * 	NATIVE APP AND 
+  
+  (You must have to provide NATIVE_APP/WEBVIEW Keyword with the name of your app; Otherwise it will throw an error in server;)
+	 * 	NATIVE_APP AND 
 	 * 	WEBVIEW_com.example.testapp;
+	 
  * The next thing you have to do is switching to the context view by their name. See example below:
  * driver.context("WEBVIEW_com.example.testapp");
  * // then you may start doing test for web view/ of that apps.
