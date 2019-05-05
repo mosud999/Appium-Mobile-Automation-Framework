@@ -1,0 +1,27 @@
+2019-05-03 06:29:46:391 [Appium] Welcome to Appium v1.12.1
+2019-05-03 06:29:46:392 [Appium] Non-default server args:
+2019-05-03 06:29:46:392 [Appium]   address: 127.0.0.1
+2019-05-03 06:29:46:392 [Appium]   port: 4728
+2019-05-03 06:29:46:392 [Appium]   logFile: /Users/mosudahmed/eclipse-protractor/Appium-Mobile-Automation/test-output/Appium-programatic-log.txt
+2019-05-03 06:29:46:412 [Appium] Appium REST http interface listener started on 127.0.0.1:4728
+2019-05-03 06:29:46:659 [HTTP] --> GET /wd/hub/status
+2019-05-03 06:29:46:659 [HTTP] {}
+2019-05-03 06:29:46:661 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-05-03 06:29:46:662 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.12.1"}}
+2019-05-03 06:29:46:666 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2019-05-03 06:29:46:666 [HTTP] 
+2019-05-03 06:29:46:684 [HTTP] --> GET /wd/hub/status
+2019-05-03 06:29:46:685 [HTTP] {}
+2019-05-03 06:29:46:685 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-05-03 06:29:46:685 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.12.1"}}
+2019-05-03 06:29:46:686 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2019-05-03 06:29:46:686 [HTTP] 
+2019-05-03 06:29:46:689 [HTTP] --> GET /wd/hub/status
+2019-05-03 06:29:46:690 [HTTP] {}
+2019-05-03 06:29:46:690 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-05-03 06:29:46:690 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.12.1"}}
+2019-05-03 06:29:46:691 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2019-05-03 06:29:46:691 [HTTP] 
+2019-05-03 06:29:46:694 uncaughtException: write EPIPE
+Error: write EPIPE
+    at WriteWrap.afterWrite (net.js:779:14)

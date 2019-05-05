@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="android.nativeto.installedapp.switching.comeback.NativeAppToInstalledAppSwitching">
+      <class name="ios.pure_native.app.iosNativeAppTesting">
         <methods>
+          <include name="iosNativeAppExecution"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="mainTest"/>
         </methods>
-      </class> <!-- android.nativeto.installedapp.switching.comeback.NativeAppToInstalledAppSwitching -->
+      </class> <!-- ios.pure_native.app.iosNativeAppTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
