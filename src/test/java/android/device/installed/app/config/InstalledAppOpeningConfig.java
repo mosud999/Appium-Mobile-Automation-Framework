@@ -47,7 +47,7 @@ Important Change Happened in 2020 :
 
 /* 
 ******Invoking App using absolute path;******
-File file = new File("src/main/resources");
+File file = new File("src/main/resources"); //--> if the apps does not find then copy and paste the whole path;
 File appFile = new File(file,"ApiDemos-debug.apk");
 DesiredCapabilities cap =  new DesiredCapabilities();
 cap.setCapability(MobileCapabilityType.APPIUM_VERSION, "v1.12.0");
